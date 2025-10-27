@@ -1,8 +1,10 @@
 # 🎯 ReverseLabs Flutter SSL Hunter
 
-![Tool Demo](https://raw.githubusercontent.com/carlosadrianosj/reverselabs-Flutter-SSL-Hunter/main/tool-action.gif)
+![Tool Demo](https://raw.githubusercontent.com/ReverseLabs-dev/ReverseLabs-Flutter-SSL-Hunter/main/tool-action.gif)
 
 ## 🚀 Automated SSL Pin-Analysis Tool for Flutter
+
+**By: [@carlosadrianosj](https://github.com/carlosadrianosj)**
 
 **ReverseLabs Flutter SSL Hunter** is a powerful Docker-based tool designed to help security researchers and developers identify SSL pinning bypass points in Flutter applications. It automatically extracts `libflutter.so` from APKs, analyzes SSL-related strings using **objdump + grep**, calculates memory addresses (RVAs), and generates ready-to-use Frida scripts.
 
@@ -275,4 +277,4 @@ This project is licensed under the MIT License.
 
 ---
 
-**By: carlosadrianosj**
+**By: [@carlosadrianosj](https://github.com/carlosadrianosj)**
