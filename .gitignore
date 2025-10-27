@@ -1,0 +1,29 @@
+# Flutter SSL Hunter - .gitignore
+
+# Input files (APKs, .so files)
+input/*
+!input/.gitkeep
+
+# Output files (analysis results)
+output/*
+!output/.gitkeep
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
